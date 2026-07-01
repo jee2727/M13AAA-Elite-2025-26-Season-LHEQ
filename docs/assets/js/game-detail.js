@@ -20,7 +20,7 @@ class GameDetailManager {
 
     async loadGameData() {
         try {
-            const response = await fetch(`data/games/game_${this.gameId}.json`);
+            const response = await fetch(getDataPath(`games/game_${this.gameId}.json`));
             if (!response.ok) {
                 throw new Error('Game not found');
             }

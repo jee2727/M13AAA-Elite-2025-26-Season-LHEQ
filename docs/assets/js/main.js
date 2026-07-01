@@ -1,4 +1,23 @@
 // Main JavaScript file for LHEQ Statistics
+
+// Utility function to get the correct base path for assets and data
+function getBasePath() {
+    const path = window.location.pathname;
+    // Check if we're in a subdirectory (GitHub Pages project repo)
+    if (path.includes('/M13AAA-Elite-2025-26-Season-LHEQ/')) {
+        return '/M13AAA-Elite-2025-26-Season-LHEQ/';
+    }
+    return '/';
+}
+
+function getDataPath(filename) {
+    return getBasePath() + 'data/' + filename;
+}
+
+function getAssetPath(filename) {
+    return getBasePath() + 'assets/' + filename;
+}
+
 class DataManager {
     constructor() {
         this.teams = [];
@@ -21,9 +40,9 @@ class DataManager {
 
             // Load all data files
             const [teamsResponse, playersResponse, gamesResponse] = await Promise.all([
-                fetch(`data/teams${suffix}.json`),
-                fetch(`data/players${suffix}.json`),
-                fetch('data/games.json')
+                fetch(getDataPath(`teams${suffix}.json`)),
+                fetch(getDataPath(`players${suffix}.json`)),
+                fetch(getDataPath('games.json'))
             ]);
 
             this.teams = await teamsResponse.json();

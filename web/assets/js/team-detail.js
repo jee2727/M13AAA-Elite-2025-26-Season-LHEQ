@@ -72,7 +72,7 @@ class TeamDetailPage {
 
     async loadFormations() {
         try {
-            const response = await fetch('data/formations.json');
+            const response = await fetch(getDataPath('formations.json'));
             if (response.ok) {
                 this.formations = await response.json();
             } else {

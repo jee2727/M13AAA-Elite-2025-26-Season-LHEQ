@@ -25,8 +25,8 @@ class SimpleGamesManager {
         try {
             console.log('Loading games and teams data...');
             const [gamesResponse, teamsResponse] = await Promise.all([
-                fetch('data/games.json'),
-                fetch('data/teams.json')
+                fetch(getDataPath('games.json')),
+                fetch(getDataPath('teams.json'))
             ]);
 
             if (!gamesResponse.ok) {
