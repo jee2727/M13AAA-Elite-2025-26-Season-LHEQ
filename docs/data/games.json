@@ -260,6 +260,16 @@
     "game_type": "season"
   },
   {
+    "id": 618067,
+    "date": "2026-03-15",
+    "home_team": "NOIR ET OR DE MORTAGNE",
+    "away_team": "GRENADIERS LAC ST-LOUIS",
+    "home_score": 5,
+    "away_score": 3,
+    "status": "FINAL",
+    "game_type": "season"
+  },
+  {
     "id": 618069,
     "date": "2025-10-04",
     "home_team": "PIONNIERS",
@@ -2030,6 +2040,16 @@
     "game_type": "season"
   },
   {
+    "id": 618251,
+    "date": "2025-09-28",
+    "home_team": "DYNAMIQUES CCL",
+    "away_team": "LIONS LAC ST-LOUIS",
+    "home_score": 0,
+    "away_score": 12,
+    "status": "FINAL",
+    "game_type": "season"
+  },
+  {
     "id": 618252,
     "date": "2025-11-01",
     "home_team": "DYNAMIQUES CCL",
@@ -2880,6 +2900,16 @@
     "game_type": "season"
   },
   {
+    "id": 618344,
+    "date": "2026-03-15",
+    "home_team": "CONQUÉRANTS BASSES-LAURENTIDES",
+    "away_team": "SEIGNEURS DES MILLE-ILES",
+    "home_score": 3,
+    "away_score": 3,
+    "status": "FINAL",
+    "game_type": "season"
+  },
+  {
     "id": 618345,
     "date": "2025-09-26",
     "home_team": "BLIZZARD SSF",
@@ -3166,6 +3196,16 @@
     "away_team": "CORSAIRES POINTE-LÉVY",
     "home_score": 1,
     "away_score": 8,
+    "status": "FINAL",
+    "game_type": "season"
+  },
+  {
+    "id": 621311,
+    "date": "2026-03-15",
+    "home_team": "COLLEGE FRANCAIS RIVE-SUD",
+    "away_team": "LIONS LAC ST-LOUIS",
+    "home_score": 2,
+    "away_score": 5,
     "status": "FINAL",
     "game_type": "season"
   },
