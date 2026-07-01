@@ -9,6 +9,7 @@ class Dashboard {
         try {
             await dataManager.loadData();
             this.setupEventListeners();
+            this.renderTopScorers();
             this.renderDivisionStandings();
 
             // Initialize DataTables after DOM update
@@ -44,7 +45,8 @@ class Dashboard {
             });
             this.dataTables = {};
 
-            // Re-render division standings
+            // Re-render
+            this.renderTopScorers();
             this.renderDivisionStandings();
 
             // Reinitialize DataTables
@@ -72,6 +74,46 @@ class Dashboard {
                 ],
                 order: [[10, 'desc']] // Sort by ~POC column descending by default
             });
+        });
+
+        // Top scorers table
+        this.dataTables['top-scorers-table'] = $('#top-scorers-table').DataTable({
+            paging: false,
+            searching: false,
+            ordering: true,
+            info: false,
+            columnDefs: [
+                { orderable: false, targets: [0, 1, 2, 3] },
+                { type: 'num', targets: [4, 5, 6, 7] }
+            ],
+            order: [[7, 'desc'], [5, 'desc']]
+        });
+    }
+
+    renderTopScorers() {
+        const tbody = document.getElementById('top-scorers-body');
+        if (!tbody) return;
+
+        const skaters = dataManager.players
+            .filter(p => p.position !== 'G')
+            .sort((a, b) => b.points - a.points || b.goals - a.goals)
+            .slice(0, 20);
+
+        tbody.innerHTML = '';
+        skaters.forEach((player, index) => {
+            const teamName = dataManager.getTeamName(player.team_id);
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${index + 1}</td>
+                <td><strong>${player.name}</strong></td>
+                <td>${teamName}</td>
+                <td><span class="position-badge position-${player.position}">${player.position}</span></td>
+                <td>${player.games_played}</td>
+                <td>${player.goals}</td>
+                <td>${player.assists}</td>
+                <td data-order="${player.points}"><strong>${player.points}</strong></td>
+            `;
+            tbody.appendChild(row);
         });
     }
 
@@ -172,6 +214,24 @@ style.textContent = `
         padding: 3rem;
         color: #666;
     }
+
+    /* Top scorers section */
+    .top-scorers-section {
+        margin-bottom: 2rem;
+    }
+
+    /* Position badges (reused from players page) */
+    .position-badge {
+        display: inline-block;
+        padding: 0.2rem 0.45rem;
+        border-radius: 4px;
+        font-size: 0.78rem;
+        font-weight: bold;
+        text-align: center;
+        min-width: 22px;
+    }
+    .position-F { background-color: #e3f2fd; color: #1976d2; }
+    .position-D { background-color: #f3e5f5; color: #7b1fa2; }
 
     /* Homepage division tables styling */
     .divisions-container {
