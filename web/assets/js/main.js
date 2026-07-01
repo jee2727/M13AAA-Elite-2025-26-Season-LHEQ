@@ -3,7 +3,11 @@
 // Utility function to get the correct base path for assets and data
 function getBasePath() {
     const path = window.location.pathname;
-    // Check if we're in a subdirectory (GitHub Pages project repo)
+    // Check for /web/ subdirectory first (served from repo root on GitHub Pages)
+    if (path.includes('/M13AAA-Elite-2025-26-Season-LHEQ/web/')) {
+        return '/M13AAA-Elite-2025-26-Season-LHEQ/web/';
+    }
+    // Check if we're in the GitHub Pages subdirectory
     if (path.includes('/M13AAA-Elite-2025-26-Season-LHEQ/')) {
         return '/M13AAA-Elite-2025-26-Season-LHEQ/';
     }
