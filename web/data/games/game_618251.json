@@ -1,14 +1,402 @@
 {
   "id": 618251,
-  "status": "SCHEDULED",
+  "status": "FINAL",
   "original_status": "ACTIVE",
   "home_team": "DYNAMIQUES CCL",
   "away_team": "LIONS LAC ST-LOUIS",
   "date": "2025-09-28",
   "start_time": "2025-09-28T19:00:00.000Z",
-  "home_score": null,
-  "away_score": null,
+  "home_score": 0,
+  "away_score": 12,
+  "game_type": "season",
+  "schedule_id": 182366,
   "detail_url": "https://lheq.qc.ca/calendrier/618251",
-  "gamesheet_pdf_url": null,
-  "game_type": "season"
+  "gamesheet_pdf_url": "https://pdf.play.spordle.com/game/618251?locale=fr",
+  "boxscore": {
+    "gameNumber": "2314",
+    "teams": [
+      {
+        "id": 128303,
+        "name": "DYNAMIQUES CCL",
+        "isPublic": true,
+        "logoUrl": "https://d1yykh3c16sa22.cloudfront.net/organizations/1ed34347-cda8-6da0-a096-0200d75649b0/logos/1ed34347-cdad-6e18-a92b-0200d75649b0.jpg"
+      },
+      {
+        "id": 128307,
+        "name": "LIONS LAC ST-LOUIS",
+        "isPublic": true,
+        "logoUrl": "https://cdn.hcr.spordle.com/teams/1f05e5ce-4399-650e-967a-0627b38ad1df/logos/1f05e5ce-437a-6d2a-9fc1-0627b38ad1df.jpg"
+      }
+    ],
+    "goals": [
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 2,
+          "seconds": 2,
+          "elapsedMinutes": 12,
+          "elapsedSeconds": 58
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "THOMAS HENRY YARED",
+          "number": 22,
+          "participantId": 792749,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f6-07bb-6490-a7f1-0695742fcc0e/profile/small/1f0d9f0f-ca7e-6b44-8394-02a039b83a19.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "KWENCY FONTAINE",
+            "number": 14,
+            "participantId": 964003,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64ef-eeb5-6c08-8eed-020a2d3ab872/profile/small/1f0d9f05-0cc1-64f8-9558-02a039b83a19.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 3,
+          "seconds": 34,
+          "elapsedMinutes": 11,
+          "elapsedSeconds": 26
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "THOMAS LACELLE",
+          "number": 26,
+          "participantId": 792732,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f2-1130-686c-9407-021e976b8d94/profile/small/1f0d9f08-4f65-691e-87b0-065ed0ab9a45.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "TYLER STEINBERG",
+            "number": 10,
+            "participantId": 819555,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f7-2a47-6788-84ed-068fc9a36a40/profile/small/1f0d9f0e-2941-65e8-9d65-02a039b83a19.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 5,
+          "seconds": 19,
+          "elapsedMinutes": 9,
+          "elapsedSeconds": 41
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "SASHA DURDEVIC",
+          "number": 16,
+          "participantId": 792736,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f3-8195-6c00-9272-06803bcf766a/profile/small/1f0d9eff-eeea-62a4-a132-06c5044a7a1f.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "FINLEY BRUNELLE",
+            "number": 8,
+            "participantId": 846350,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64ef-b311-6b3e-88f0-0220ca96f6a8/profile/small/1f0d9eff-2bbd-66d2-a900-065ed0ab9a45.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 7,
+          "seconds": 41,
+          "elapsedMinutes": 7,
+          "elapsedSeconds": 19
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "FINLEY BRUNELLE",
+          "number": 8,
+          "participantId": 846350,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64ef-b311-6b3e-88f0-0220ca96f6a8/profile/small/1f0d9eff-2bbd-66d2-a900-065ed0ab9a45.jpg"
+        },
+        "assists": [],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 11,
+          "seconds": 55,
+          "elapsedMinutes": 3,
+          "elapsedSeconds": 5
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "SASHA DURDEVIC",
+          "number": 16,
+          "participantId": 792736,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f3-8195-6c00-9272-06803bcf766a/profile/small/1f0d9eff-eeea-62a4-a132-06c5044a7a1f.jpg"
+        },
+        "assists": [],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "2",
+          "minutes": 1,
+          "seconds": 17,
+          "elapsedMinutes": 13,
+          "elapsedSeconds": 43
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "FINLEY BRUNELLE",
+          "number": 8,
+          "participantId": 846350,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64ef-b311-6b3e-88f0-0220ca96f6a8/profile/small/1f0d9eff-2bbd-66d2-a900-065ed0ab9a45.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "JORDAN LOBE",
+            "number": 24,
+            "participantId": 792746,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64ef-422e-6d18-a6e2-0695742fcc0e/profile/small/1f0d9f09-e3cd-6240-9576-065ed0ab9a45.jpg"
+          },
+          {
+            "fullName": "SASHA DURDEVIC",
+            "number": 16,
+            "participantId": 792736,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f3-8195-6c00-9272-06803bcf766a/profile/small/1f0d9eff-eeea-62a4-a132-06c5044a7a1f.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "2",
+          "minutes": 1,
+          "seconds": 47,
+          "elapsedMinutes": 13,
+          "elapsedSeconds": 13
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "FINLEY BRUNELLE",
+          "number": 8,
+          "participantId": 846350,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64ef-b311-6b3e-88f0-0220ca96f6a8/profile/small/1f0d9eff-2bbd-66d2-a900-065ed0ab9a45.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "SASHA DURDEVIC",
+            "number": 16,
+            "participantId": 792736,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f3-8195-6c00-9272-06803bcf766a/profile/small/1f0d9eff-eeea-62a4-a132-06c5044a7a1f.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 1,
+          "seconds": 50,
+          "elapsedMinutes": 13,
+          "elapsedSeconds": 10
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "TYLER STEINBERG",
+          "number": 10,
+          "participantId": 819555,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f7-2a47-6788-84ed-068fc9a36a40/profile/small/1f0d9f0e-2941-65e8-9d65-02a039b83a19.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "LEO PICCIUTO",
+            "number": 30,
+            "participantId": 830388,
+            "pictureUrl": "https://d1yykh3c16sa22.cloudfront.net/members/1ebb64f4-f698-6330-af2a-06803bcf766a/profile/small/1f0d9f0c-6118-6b9e-af15-065ed0ab9a45.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 4,
+          "seconds": 5,
+          "elapsedMinutes": 10,
+          "elapsedSeconds": 55
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "MASSIMO PICCIONI",
+          "number": 32,
+          "participantId": 846352
+        },
+        "assists": [
+          {
+            "fullName": "GEORGE MANOS",
+            "number": 4,
+            "participantId": 792735,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f5-871c-6258-befa-021e976b8d94/profile/small/1f0d9f0a-a140-6458-b431-02a039b83a19.jpg"
+          },
+          {
+            "fullName": "BRANDON TAMARO",
+            "number": 28,
+            "participantId": 846349,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f2-446c-6456-92e4-021e976b8d94/profile/small/1f0d9f0e-ee34-6cba-9474-06c5044a7a1f.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 4,
+          "seconds": 29,
+          "elapsedMinutes": 10,
+          "elapsedSeconds": 31
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "TYLER STEINBERG",
+          "number": 10,
+          "participantId": 819555,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f7-2a47-6788-84ed-068fc9a36a40/profile/small/1f0d9f0e-2941-65e8-9d65-02a039b83a19.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "THOMAS LACELLE",
+            "number": 26,
+            "participantId": 792732,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f2-1130-686c-9407-021e976b8d94/profile/small/1f0d9f08-4f65-691e-87b0-065ed0ab9a45.jpg"
+          },
+          {
+            "fullName": "FINLEY BRUNELLE",
+            "number": 8,
+            "participantId": 846350,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64ef-b311-6b3e-88f0-0220ca96f6a8/profile/small/1f0d9eff-2bbd-66d2-a900-065ed0ab9a45.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 7,
+          "seconds": 33,
+          "elapsedMinutes": 7,
+          "elapsedSeconds": 27
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "THOMAS HENRY YARED",
+          "number": 22,
+          "participantId": 792749,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f6-07bb-6490-a7f1-0695742fcc0e/profile/small/1f0d9f0f-ca7e-6b44-8394-02a039b83a19.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "AYDEN GOUDREAU",
+            "number": 18,
+            "participantId": 792745,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f5-8c38-6282-8cd6-021e976b8d94/profile/small/1f0d9f06-a1b4-6de8-ae76-065ed0ab9a45.jpg"
+          },
+          {
+            "fullName": "BRANDON TAMARO",
+            "number": 28,
+            "participantId": 846349,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f2-446c-6456-92e4-021e976b8d94/profile/small/1f0d9f0e-ee34-6cba-9474-06c5044a7a1f.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 8,
+          "seconds": 24,
+          "elapsedMinutes": 6,
+          "elapsedSeconds": 36
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "FINLEY BRUNELLE",
+          "number": 8,
+          "participantId": 846350,
+          "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64ef-b311-6b3e-88f0-0220ca96f6a8/profile/small/1f0d9eff-2bbd-66d2-a900-065ed0ab9a45.jpg"
+        },
+        "assists": [
+          {
+            "fullName": "SASHA DURDEVIC",
+            "number": 16,
+            "participantId": 792736,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f3-8195-6c00-9272-06803bcf766a/profile/small/1f0d9eff-eeea-62a4-a132-06c5044a7a1f.jpg"
+          },
+          {
+            "fullName": "TYLER STEINBERG",
+            "number": 10,
+            "participantId": 819555,
+            "pictureUrl": "https://cdn.hcr.spordle.com/members/1ebb64f7-2a47-6788-84ed-068fc9a36a40/profile/small/1f0d9f0e-2941-65e8-9d65-02a039b83a19.jpg"
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      }
+    ],
+    "shootout": [],
+    "penalties": [],
+    "roster": []
+  },
+  "home_team_roster": [],
+  "away_team_roster": []
 }
