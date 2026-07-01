@@ -1,15 +1,243 @@
 {
   "id": 618067,
-  "status": "SCHEDULED",
+  "status": "FINAL",
   "original_status": "ACTIVE",
   "home_team": "NOIR ET OR DE MORTAGNE",
   "away_team": "GRENADIERS LAC ST-LOUIS",
   "date": "2026-03-15",
   "start_time": "2026-03-15T19:45:00.000Z",
-  "home_score": null,
-  "away_score": null,
+  "home_score": 5,
+  "away_score": 3,
   "game_type": "season",
   "schedule_id": 182366,
   "detail_url": "https://lheq.qc.ca/calendrier/618067",
-  "gamesheet_pdf_url": null
+  "gamesheet_pdf_url": "https://pdf.play.spordle.com/game/618067?locale=fr",
+  "boxscore": {
+    "gameNumber": "2401",
+    "teams": [
+      {
+        "id": 128300,
+        "name": "NOIR ET OR DE MORTAGNE",
+        "isPublic": true,
+        "logoUrl": "https://d1yykh3c16sa22.cloudfront.net/organizations/1ed339d2-d0e3-62e6-9b19-0672fb667b66/logos/1ed339d2-d0f5-6d42-aa87-0672fb667b66.jpg"
+      },
+      {
+        "id": 128310,
+        "name": "GRENADIERS LAC ST-LOUIS",
+        "isPublic": true,
+        "logoUrl": "https://cdn.hcr.spordle.com/teams/1f05e5ce-43b6-667c-8c7a-0627b38ad1df/logos/1f05e5ce-4399-67a2-a606-0627b38ad1df.png"
+      }
+    ],
+    "goals": [
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 1,
+          "seconds": 29
+        },
+        "teamId": 128310,
+        "participant": {
+          "fullName": "RAPHAEL RENAUD",
+          "number": 23,
+          "participantId": 807538
+        },
+        "assists": [],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 2,
+          "seconds": 14
+        },
+        "teamId": 128300,
+        "participant": {
+          "fullName": "ELLIOT PELLETIER",
+          "number": 16,
+          "participantId": 773939
+        },
+        "assists": [
+          {
+            "fullName": "HENRI BELLE-ISLE",
+            "number": 7,
+            "participantId": 773926
+          },
+          {
+            "fullName": "MARIN TESAR",
+            "number": 91,
+            "participantId": 773933
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 14,
+          "seconds": 21
+        },
+        "teamId": 128300,
+        "participant": {
+          "fullName": "LIAM NAUD",
+          "number": 10,
+          "participantId": 773940
+        },
+        "assists": [
+          {
+            "fullName": "MARIN TESAR",
+            "number": 91,
+            "participantId": 773933
+          },
+          {
+            "fullName": "MATT GENDREAU",
+            "number": 15,
+            "participantId": 773923
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "2",
+          "minutes": 11,
+          "seconds": 49
+        },
+        "teamId": 128300,
+        "participant": {
+          "fullName": "SAMUEL MEILLEUR",
+          "number": 11,
+          "participantId": 773938
+        },
+        "assists": [
+          {
+            "fullName": "ALEXIS POUDRIER",
+            "number": 88,
+            "participantId": 773937
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 1,
+          "seconds": 25
+        },
+        "teamId": 128310,
+        "participant": {
+          "fullName": "JACOB FLETCHER",
+          "number": 41,
+          "participantId": 807525
+        },
+        "assists": [
+          {
+            "fullName": "HENRY COLDRICK",
+            "number": 37,
+            "participantId": 807532
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 5,
+          "seconds": 26
+        },
+        "teamId": 128310,
+        "participant": {
+          "fullName": "VINCENT VINET",
+          "number": 39,
+          "participantId": 807527
+        },
+        "assists": [],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 10,
+          "seconds": 32
+        },
+        "teamId": 128300,
+        "participant": {
+          "fullName": "JAYDEN RIENDEAU",
+          "number": 22,
+          "participantId": 758436
+        },
+        "assists": [
+          {
+            "fullName": "MATT GENDREAU",
+            "number": 15,
+            "participantId": 773923
+          },
+          {
+            "fullName": "MARIN TESAR",
+            "number": 91,
+            "participantId": 773933
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 14,
+          "seconds": 21
+        },
+        "teamId": 128300,
+        "participant": {
+          "fullName": "SAMUEL LALANDE",
+          "number": 4,
+          "participantId": 773920
+        },
+        "assists": [
+          {
+            "fullName": "SAMUEL MEILLEUR",
+            "number": 11,
+            "participantId": 773938
+          },
+          {
+            "fullName": "MATT GENDREAU",
+            "number": 15,
+            "participantId": 773923
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      }
+    ],
+    "penalties": []
+  }
 }

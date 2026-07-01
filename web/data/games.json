@@ -260,6 +260,16 @@
     "game_type": "season"
   },
   {
+    "id": 618067,
+    "date": "2026-03-15",
+    "home_team": "NOIR ET OR DE MORTAGNE",
+    "away_team": "GRENADIERS LAC ST-LOUIS",
+    "home_score": 5,
+    "away_score": 3,
+    "status": "FINAL",
+    "game_type": "season"
+  },
+  {
     "id": 618069,
     "date": "2025-10-04",
     "home_team": "PIONNIERS",
