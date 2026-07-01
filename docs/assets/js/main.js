@@ -1,21 +1,30 @@
 // Main JavaScript file for LHEQ Statistics
 
-// Utility function to get the correct base path for assets and data
+// Utility function to get the correct base URL for assets and data
 function getBasePath() {
-    const path = window.location.pathname;
-    // Check if we're in a subdirectory (GitHub Pages project repo)
-    if (path.includes('/M13AAA-Elite-2025-26-Season-LHEQ/')) {
-        return '/M13AAA-Elite-2025-26-Season-LHEQ/';
+    const SCRIPT_TO_ROOT_TRAVERSAL = '../..';
+    const mainScript = document.querySelector('script[src$="assets/js/main.js"], script[src*="assets/js/main.js?"]');
+    const scriptSrc = mainScript ? mainScript.getAttribute('src') : 'assets/js/main.js';
+
+    try {
+        const scriptUrl = new URL(scriptSrc, window.location.href);
+        // Move from .../assets/js/main.js back to the site root.
+        return new URL(SCRIPT_TO_ROOT_TRAVERSAL, scriptUrl).toString();
+    } catch (error) {
+        console.warn(
+            'Failed to resolve base path from script location. Ensure main.js src points to assets/js/main.js. Using current page URL as fallback; assets may fail to load if page path is unexpected.',
+            error
+        );
+        return new URL('./', window.location.href).toString();
     }
-    return '/';
 }
 
 function getDataPath(filename) {
-    return getBasePath() + 'data/' + filename;
+    return new URL(`data/${filename}`, getBasePath()).toString();
 }
 
 function getAssetPath(filename) {
-    return getBasePath() + 'assets/' + filename;
+    return new URL(`assets/${filename}`, getBasePath()).toString();
 }
 
 class DataManager {
