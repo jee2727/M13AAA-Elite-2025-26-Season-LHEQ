@@ -1,15 +1,167 @@
 {
   "id": 618344,
-  "status": "SCHEDULED",
+  "status": "FINAL",
   "original_status": "ACTIVE",
   "home_team": "CONQUÉRANTS BASSES-LAURENTIDES",
   "away_team": "SEIGNEURS DES MILLE-ILES",
   "date": "2026-03-15",
   "start_time": "2026-03-15T21:30:00.000Z",
-  "home_score": null,
-  "away_score": null,
+  "home_score": 3,
+  "away_score": 3,
   "game_type": "season",
   "schedule_id": 182366,
   "detail_url": "https://lheq.qc.ca/calendrier/618344",
-  "gamesheet_pdf_url": null
+  "gamesheet_pdf_url": "https://pdf.play.spordle.com/game/618344?locale=fr",
+  "boxscore": {
+    "gameNumber": "2706",
+    "teams": [
+      {
+        "id": 128315,
+        "name": "CONQUÉRANTS BASSES-LAURENTIDES",
+        "isPublic": true,
+        "logoUrl": "https://cdn.hcr.spordle.com/teams/1f05e5ce-42e6-60da-826a-0627b38ad1df/logos/1f05e5ce-42cb-61b8-9c22-0627b38ad1df.jpg"
+      },
+      {
+        "id": 128317,
+        "name": "SEIGNEURS DES MILLE-ILES",
+        "isPublic": true,
+        "logoUrl": "https://cdn.hcr.spordle.com/teams/1f05e5ce-42cb-603c-8a5b-0627b38ad1df/logos/1f05e5ce-42ae-6400-9180-0627b38ad1df.jpg"
+      }
+    ],
+    "goals": [
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 12,
+          "seconds": 22
+        },
+        "teamId": 128317,
+        "participant": {
+          "fullName": "LUDOVIC GIRALDEAU",
+          "number": 19,
+          "participantId": 812177
+        },
+        "assists": [
+          {
+            "fullName": "RIMTO DUPUIS",
+            "number": 21,
+            "participantId": 812189
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "2",
+          "minutes": 9,
+          "seconds": 45
+        },
+        "teamId": 128315,
+        "participant": {
+          "fullName": "DILAN MORIN",
+          "number": 36,
+          "participantId": 796072
+        },
+        "assists": [
+          {
+            "fullName": "FÉLIX DELAGE",
+            "number": 26,
+            "participantId": 796052
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "2",
+          "minutes": 13,
+          "seconds": 35
+        },
+        "teamId": 128315,
+        "participant": {
+          "fullName": "XAVIER JEAN",
+          "number": 20,
+          "participantId": 796045
+        },
+        "assists": [
+          {
+            "fullName": "MILAN DROUIN",
+            "number": 27,
+            "participantId": 796048
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 2,
+          "seconds": 56
+        },
+        "teamId": 128317,
+        "participant": {
+          "fullName": "KAYDEN BRASSARD",
+          "number": 93,
+          "participantId": 812192
+        },
+        "assists": [],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 10,
+          "seconds": 39
+        },
+        "teamId": 128317,
+        "participant": {
+          "fullName": "RAFAEL MICHAUD",
+          "number": 79,
+          "participantId": 812181
+        },
+        "assists": [],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 12,
+          "seconds": 0
+        },
+        "teamId": 128315,
+        "participant": {
+          "fullName": "FÉLIX DELAGE",
+          "number": 26,
+          "participantId": 796052
+        },
+        "assists": [],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      }
+    ],
+    "penalties": []
+  }
 }

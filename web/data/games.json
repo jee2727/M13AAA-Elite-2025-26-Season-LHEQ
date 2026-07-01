@@ -2900,6 +2900,16 @@
     "game_type": "season"
   },
   {
+    "id": 618344,
+    "date": "2026-03-15",
+    "home_team": "CONQUÉRANTS BASSES-LAURENTIDES",
+    "away_team": "SEIGNEURS DES MILLE-ILES",
+    "home_score": 3,
+    "away_score": 3,
+    "status": "FINAL",
+    "game_type": "season"
+  },
+  {
     "id": 618345,
     "date": "2025-09-26",
     "home_team": "BLIZZARD SSF",
