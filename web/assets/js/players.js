@@ -182,7 +182,7 @@ class PlayersPage {
             this.populateDivisionFilter();
 
             // Re-apply current filters
-            this.applyFilters();
+            this.applyAllFilters();
         } catch (error) {
             console.error('Error toggling tournament data:', error);
             this.showError();
