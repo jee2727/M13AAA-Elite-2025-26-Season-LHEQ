@@ -18,7 +18,7 @@ Complete web application for the Ligue de Hockey d'Excellence du Québec (LHEQ),
 - **`lheq_stats.py`** - Unified statistics compiler (runs all processing steps)
 - `lheq_scraper.py` - Scrapes game data and downloads PDF gamesheets from LHEQ API
 
-### Web Application (`web/`)
+### Web Application (`doc/`)
 - `index.html` - Homepage with recent games and overview
 - `teams.html` - Team standings with division filtering
 - `team-detail.html` - Individual team page with roster, stats, and formations
