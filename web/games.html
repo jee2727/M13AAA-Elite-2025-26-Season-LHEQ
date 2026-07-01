@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchs - LHEQ Statistics</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>LHEQ Statistics</h1>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="teams.html" class="nav-link">Équipes</a>
+                <a href="players.html" class="nav-link">Joueurs</a>
+                <a href="games.html" class="nav-link active">Matchs</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="page-header">
+                <h2>Tous les Matchs</h2>
+            </section>
+
+            <div class="filters">
+                <button class="filters-toggle">
+                    Filtres
+                    <span class="filters-toggle-icon">▼</span>
+                </button>
+                <div class="filters-content">
+                    <div class="filter-options">
+                        <label for="team-filter">Équipe:</label>
+                        <select id="team-filter" class="filter-select">
+                            <option value="">Toutes les équipes</option>
+                        </select>
+                    </div>
+                    <div class="filter-options">
+                        <label for="division-filter">Division:</label>
+                        <select id="division-filter" class="filter-select">
+                            <option value="">Toutes les divisions</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <div class="table-wrapper">
+                    <table class="games-table" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Équipe Visiteur</th>
+                                <th>Score</th>
+                                <th>Équipe Domicile</th>
+                                <th>Statut</th>
+                                <th>Division</th>
+                            </tr>
+                        </thead>
+                        <tbody id="games-table-body">
+                            <!-- Games will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="loading" id="loading">
+                Chargement des matchs...
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 LHEQ Statistics. Données compilées automatiquement.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/games-simple.js"></script>
+</body>
+</html>
