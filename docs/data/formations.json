@@ -920,7 +920,7 @@
         "points": 26,
         "type": "trio",
         "raw_score": 26,
-        "dominance_score": 50.0,
+        "dominance_score": 48.1,
         "rank": "Line 1"
       },
       {
@@ -946,7 +946,7 @@
         "points": 18,
         "type": "trio",
         "raw_score": 18,
-        "dominance_score": 34.6,
+        "dominance_score": 33.3,
         "rank": "Line 2"
       },
       {
@@ -967,12 +967,12 @@
             "number": 20
           }
         ],
-        "goals": 3,
-        "assists": 5,
-        "points": 8,
+        "goals": 4,
+        "assists": 6,
+        "points": 10,
         "type": "trio",
-        "raw_score": 8,
-        "dominance_score": 15.4,
+        "raw_score": 10,
+        "dominance_score": 18.5,
         "rank": "Line 3"
       }
     ],
@@ -1177,6 +1177,21 @@
       {
         "players": [
           {
+            "name": "SASHA DURDEVIC",
+            "position": "F",
+            "number": 16
+          },
+          {
+            "name": "TYLER STEINBERG",
+            "position": "F",
+            "number": 10
+          }
+        ],
+        "goals": 8
+      },
+      {
+        "players": [
+          {
             "name": "LIAM GEFFIN",
             "position": "F",
             "number": 20
@@ -1203,21 +1218,6 @@
           }
         ],
         "goals": 8
-      },
-      {
-        "players": [
-          {
-            "name": "SASHA DURDEVIC",
-            "position": "F",
-            "number": 16
-          },
-          {
-            "name": "TYLER STEINBERG",
-            "position": "F",
-            "number": 10
-          }
-        ],
-        "goals": 7
       },
       {
         "players": [
