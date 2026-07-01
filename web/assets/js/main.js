@@ -7,8 +7,10 @@ function getBasePath() {
 
     try {
         const scriptUrl = new URL(scriptSrc, window.location.href);
+        // Move from .../assets/js/main.js back to the site root.
         return new URL('../..', scriptUrl).toString();
     } catch (error) {
+        console.warn('Falling back to current page URL for base path resolution:', error);
         return new URL('./', window.location.href).toString();
     }
 }
