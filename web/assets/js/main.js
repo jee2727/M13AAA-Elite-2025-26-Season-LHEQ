@@ -3,16 +3,23 @@
 // Utility function to get the correct base URL for assets and data
 function getBasePath() {
     const SCRIPT_TO_ROOT_TRAVERSAL = '../..';
-    const mainScript = document.querySelector('script[src$="assets/js/main.js"], script[src*="assets/js/main.js?"]');
-    const scriptSrc = mainScript ? mainScript.getAttribute('src') : 'assets/js/main.js';
+    const mainScript = Array.from(document.scripts || []).find(script => {
+        const rawSrc = script.getAttribute('src') || '';
+        const resolvedSrc = script.src || '';
+        return /assets\/js\/main\.js(\?.*)?$/i.test(rawSrc) || /assets\/js\/main\.js(\?.*)?$/i.test(resolvedSrc);
+    });
+    const scriptSrc = mainScript ? (mainScript.getAttribute('src') || mainScript.src) : null;
 
     try {
+        if (!scriptSrc) {
+            throw new Error('main.js script tag not found');
+        }
         const scriptUrl = new URL(scriptSrc, window.location.href);
         // Move from .../assets/js/main.js back to the site root.
         return new URL(SCRIPT_TO_ROOT_TRAVERSAL, scriptUrl).toString();
     } catch (error) {
         console.warn(
-            'Failed to resolve base path from script location. Ensure main.js src points to assets/js/main.js. Using current page URL as fallback; assets may fail to load if page path is unexpected.',
+            'Failed to resolve base path from script location. Ensure the script src ends with assets/js/main.js. Using current page URL directory as fallback.',
             error
         );
         return new URL('./', window.location.href).toString();
