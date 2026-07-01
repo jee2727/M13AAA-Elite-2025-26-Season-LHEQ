@@ -2,11 +2,13 @@
 
 // Utility function to get the correct base URL for assets and data
 function getBasePath() {
+    const MAIN_SCRIPT_PATTERN = /assets\/js\/main\.js(\?.*)?$/i;
+    // Relative traversal from assets/js/main.js to the site root.
     const SCRIPT_TO_ROOT_TRAVERSAL = '../..';
     const mainScript = Array.from(document.scripts || []).find(script => {
         const rawSrc = script.getAttribute('src') || '';
         const resolvedSrc = script.src || '';
-        return /assets\/js\/main\.js(\?.*)?$/i.test(rawSrc) || /assets\/js\/main\.js(\?.*)?$/i.test(resolvedSrc);
+        return MAIN_SCRIPT_PATTERN.test(rawSrc) || MAIN_SCRIPT_PATTERN.test(resolvedSrc);
     });
     const scriptSrc = mainScript ? (mainScript.getAttribute('src') || mainScript.src) : null;
 
