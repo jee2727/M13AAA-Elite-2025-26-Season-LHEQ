@@ -1,15 +1,225 @@
 {
   "id": 621311,
-  "status": "SCHEDULED",
+  "status": "FINAL",
   "original_status": "ACTIVE",
   "home_team": "COLLEGE FRANCAIS RIVE-SUD",
   "away_team": "LIONS LAC ST-LOUIS",
   "date": "2026-03-15",
   "start_time": "2026-03-15T20:30:00.000Z",
-  "home_score": null,
-  "away_score": null,
+  "home_score": 2,
+  "away_score": 5,
   "game_type": "season",
   "schedule_id": 182366,
   "detail_url": "https://lheq.qc.ca/calendrier/621311",
-  "gamesheet_pdf_url": null
+  "gamesheet_pdf_url": "https://pdf.play.spordle.com/game/621311?locale=fr",
+  "boxscore": {
+    "gameNumber": "2402",
+    "teams": [
+      {
+        "id": 128301,
+        "name": "COLLEGE FRANCAIS RIVE-SUD",
+        "isPublic": true,
+        "logoUrl": "https://cdn.hcr.spordle.com/organizations/1ed3433a-a9d0-6b2e-b9be-0203e3f8a0f8/logos/1ed3433a-a9ec-6018-8b36-0203e3f8a0f8.png"
+      },
+      {
+        "id": 128307,
+        "name": "LIONS LAC ST-LOUIS",
+        "isPublic": true,
+        "logoUrl": "https://cdn.hcr.spordle.com/teams/1f05e5ce-4399-650e-967a-0627b38ad1df/logos/1f05e5ce-437a-6d2a-9fc1-0627b38ad1df.jpg"
+      }
+    ],
+    "goals": [
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 5,
+          "seconds": 16
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "LOUIS-RAPHAEL SANICO POTVIN",
+          "number": 2,
+          "participantId": 846360
+        },
+        "assists": [
+          {
+            "fullName": "FINLEY BRUNELLE",
+            "number": 8,
+            "participantId": 846350
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "1",
+          "minutes": 13,
+          "seconds": 51
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "LIAM LESKIEWICZ",
+          "number": 12,
+          "participantId": 792731
+        },
+        "assists": [
+          {
+            "fullName": "FINLEY BRUNELLE",
+            "number": 8,
+            "participantId": 846350
+          },
+          {
+            "fullName": "JORDAN LOBE",
+            "number": 24,
+            "participantId": 792746
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "2",
+          "minutes": 8,
+          "seconds": 41
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "TYLER STEINBERG",
+          "number": 10,
+          "participantId": 819555
+        },
+        "assists": [
+          {
+            "fullName": "SASHA DURDEVIC",
+            "number": 16,
+            "participantId": 792736
+          },
+          {
+            "fullName": "BRANDON TAMARO",
+            "number": 28,
+            "participantId": 846349
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "2",
+          "minutes": 9,
+          "seconds": 55
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "LIAM LESKIEWICZ",
+          "number": 12,
+          "participantId": 792731
+        },
+        "assists": [
+          {
+            "fullName": "LIAM GEFFIN",
+            "number": 20,
+            "participantId": 792729
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "2",
+          "minutes": 11,
+          "seconds": 36
+        },
+        "teamId": 128307,
+        "participant": {
+          "fullName": "LIAM LESKIEWICZ",
+          "number": 12,
+          "participantId": 792731
+        },
+        "assists": [
+          {
+            "fullName": "LOUIS-RAPHAEL SANICO POTVIN",
+            "number": 2,
+            "participantId": 846360
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 4,
+          "seconds": 12
+        },
+        "teamId": 128301,
+        "participant": {
+          "fullName": "CHARLES HUOT",
+          "number": 82,
+          "participantId": 964149
+        },
+        "assists": [
+          {
+            "fullName": "DARREN ROSS",
+            "number": 61,
+            "participantId": 964150
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      },
+      {
+        "gameTime": {
+          "period": "3",
+          "minutes": 13,
+          "seconds": 23
+        },
+        "teamId": 128301,
+        "participant": {
+          "fullName": "JUSTIN LAMBERT",
+          "number": 18,
+          "participantId": 965256
+        },
+        "assists": [
+          {
+            "fullName": "SAMUEL-JAMES BYRNS-AUBUT",
+            "number": 11,
+            "participantId": 953239
+          },
+          {
+            "fullName": "JEAN-NICOLAS ROCHON-BRISEBOIS",
+            "number": 63,
+            "participantId": 964145
+          }
+        ],
+        "isPowerplay": false,
+        "isShorthanded": false,
+        "isEmptyNet": false,
+        "isPenaltyShot": false,
+        "isOwnGoal": null
+      }
+    ],
+    "penalties": []
+  }
 }

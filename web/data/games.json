@@ -3190,6 +3190,16 @@
     "game_type": "season"
   },
   {
+    "id": 621311,
+    "date": "2026-03-15",
+    "home_team": "COLLEGE FRANCAIS RIVE-SUD",
+    "away_team": "LIONS LAC ST-LOUIS",
+    "home_score": 2,
+    "away_score": 5,
+    "status": "FINAL",
+    "game_type": "season"
+  },
+  {
     "id": 621315,
     "date": "2025-10-19",
     "home_team": "CORSAIRES POINTE-LÉVY",
